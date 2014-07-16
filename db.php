@@ -17,6 +17,7 @@
     
     function fechar() {
       mysql_close();
+      __destruct();
     }
     
   }
