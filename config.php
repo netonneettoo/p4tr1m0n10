@@ -18,5 +18,9 @@
         function maiusculo($string) {
             return strtoupper($string);
         }
+        
+        function countString($string) {
+            return strlen($string);
+        }
     }
 ?>
