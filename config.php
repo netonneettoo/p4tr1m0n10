@@ -5,18 +5,18 @@
             date_default_timezone_set('America/Argentina/Buenos_Aires');   
         }
         
-        function setDinheiroBR($valor) {
+        function dinheiroBR($valor) {
             //number_format(valor, casas decimais, separador decimal, separador milhar)
             return number_format($valor, 2, ',', '')
         }
         
-        function setDinheiroEN($valor) {
+        function dinheiroEN($valor) {
             //number_format(valor, casas decimais, separador decimal, separador milhar)
             return number_format($valor, 2, '.', '')
         }
         
-        function setMaiusculo() {
-            strtoupper(
+        function maiusculo($string) {
+            return strtoupper($string);
         }
     }
 ?>
