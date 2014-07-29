@@ -1262,7 +1262,7 @@ CREATE TABLE IF NOT EXISTS `sala` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `sala` (`sala`),
   KEY `fk_andar_sala` (`andar`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=49 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=50 ;
 
 --
 -- Extraindo dados da tabela `sala`
@@ -1316,7 +1316,8 @@ INSERT INTO `sala` (`id`, `andar`, `sala`, `descricao`) VALUES
 (45, 7, 'MECANOGRAFIA', NULL),
 (46, 8, 'AUDITÓRIO', NULL),
 (47, 8, 'RECEPÇÃO', NULL),
-(48, 9, 'CEDOC', NULL);
+(48, 9, 'CEDOC', NULL),
+(49, 8, 'PROTOCOLO', NULL);
 
 -- --------------------------------------------------------
 
